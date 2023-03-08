@@ -1,0 +1,32 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.encabezado{
+  color: darkblue;
+  font-size: 25pt;
+}
+
+h1{
+ color: blue;
+}
+
+p{
+  color: green;
+  font-size: 20pt;
+}
+
+#primera-noticia{
+  color: rgb(222, 184, 135);
+  font-size: 16pt;
+}
+
+#segunda-noticia{
+  color: #8b0000b6;
+  font-size: 16pt;
+}
+
+.username,.date,.ubication{
+  text-decoration: underline;
+}
+

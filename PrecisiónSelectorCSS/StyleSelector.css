@@ -1,0 +1,18 @@
+.background{
+  width: 500;
+  height: 500;
+  background-color: burlywood;
+  padding: 10px 20px;
+  margin: 10px 20px;;
+}
+
+#element-1,#el-1{
+  color: red;
+  font-size: 2rem;
+}
+
+#titulo{
+  color: blue;
+  font-size: 2rem;
+  text-align: center;
+}
