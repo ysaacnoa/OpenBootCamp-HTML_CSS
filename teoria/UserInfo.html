@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>UserInfo</title>
+</head>
+<body>
+  <h1>Mostrando Resultados ...</h1>
+  <div id="UserInfo"></div>
+  <a href="Forms.html">Return to Forms</a>
+</body>
+<script>
+  const infoDiv = document.getElementById('UserInfo');
+  new URLSearchParams(window.location.search).forEach((val, name) => {
+    infoDiv.append(`${name}: ${val} `)
+    infoDiv.append(document.createElement('br'))
+  })
+</script>
+</html>

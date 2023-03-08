@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Forms</title>
+</head>
+<body>
+  <br>
+  <form action="UserInfo.html" method="get">
+    <div>
+      <label for="username">Username</label>
+      <input id="username" name="username" required>
+    </div>
+    <br>
+    <div>
+      <label for="password">Password</label>
+      <input id="password" type="password" name="password" required>
+    </div>
+    <br>
+    <div>
+      <label for="email">What is your email</label>
+      <input type="email" name="email" id="email">
+    </div>
+    <br>
+    <div>
+      <label for="birthdate">when is your birthday?</label>
+      <input type="date" name="birthdate" id="birthdate">
+    </div>
+    <br>
+    <div>
+      <label for="yearold">Year Old</label>
+      <input type="number" name="yearold" id="yearold" min="5" max="80" step="1" required>
+    </div>
+    <br>
+    <div>
+      <label for="comments">Comments</label>
+      <br>
+      <textarea id="comments" name="comments" cols="30" rows="3"></textarea>
+    </div>
+    <br>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
