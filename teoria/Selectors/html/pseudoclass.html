@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo-Class</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+
+    }
+    .hover{
+      width: 300px;
+      height: 110px;
+      background-color: violet;
+    }
+    .hover:hover{
+      background-color: mediumvioletred;
+    }
+
+    .child{
+      padding: 15px;
+      background-color: aquamarine;
+    }
+    .child p:first-child{
+      color: blue;
+      background-color: aqua;
+    }
+
+    a:link{
+      color: orange;
+    }
+    a:visited{
+      color: rgb(209, 142, 18);
+    }
+    a:hover{
+      color: rgb(243, 200, 120);
+    }
+    a:active{
+      color: rgb(253, 120, 71);
+    }
+  </style>
+  <link rel="stylesheet" href="../css/pseudoclass.css">
+</head>
+<body>
+  <div class="hover">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam vero placeat aliquid? Perspiciatis nesciunt natus, laboriosam ducimus vel quis impedit ex eum exercitationem tempore, sunt optio ad laudantium delectus.</p>
+  </div>
+  <div class="child">
+    <p>parrafo 1</p>
+    <p>parrafo 1</p>
+    <p>parrafo 1</p>  
+  </div>
+  <div class="enlaces">
+    <a href="https://www.amazon.com/-/es/Alex-Acks/dp/1956916296/ref=sr_1_3?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=world+of+warcraft&s=books&sr=1-3" target="_blank">Enlace Amazon</a>
+    <a href="https://www.amazon.com/-/es/Pandemic-estrategia-cooperativo-adolescentes-jugadores/dp/B099NNRP9F/ref=sr_1_8?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=world+of+warcraft&sr=8-8" target="_blank">Enlace Amazon no visitado</a>
+  </div>
+</body>
+</html>
