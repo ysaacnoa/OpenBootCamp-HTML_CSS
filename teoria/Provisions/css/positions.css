@@ -1,0 +1,39 @@
+div {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.relative{
+  position: relative;
+  left: 50px;
+}
+
+.fixed{
+  position: fixed;
+  bottom: 0px;
+  background-color: greenyellow;
+  z-index: 10;
+}
+
+.sticky{
+  position: sticky;
+  color: aliceblue;
+  background-color: burlywood;
+  top: 0px;
+  margin: 5px;
+  z-index:2;
+}
+
+.relative.container{
+  width: 500px;
+  height: 1000px;
+  background-color: aquamarine;
+}
+
+.absolute{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: aliceblue;
+}

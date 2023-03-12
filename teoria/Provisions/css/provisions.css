@@ -1,0 +1,16 @@
+.div-1, .div-2{
+  background-color: aquamarine;
+}
+.span-1{
+  background-color: wheat;
+  /*display: inline por DEFECTO*/
+}
+.span-2{
+  background-color: yellow;
+  float: right;
+}
+.img{
+  width: 300px;
+  height: 250px;
+  border-radius: 50%;
+}
